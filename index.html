@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dj.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <h1>Console the status of music</h1>
+     <p><b>Description :</b> Display the status of music, whether the music playing is true or false on console on click of "Check if Music is Playing" button 
+    <ul>
+      <li>Inside check() function which is called on click of "Check if Music is Playing" button
+        <ol>
+          <li>Define a variable "playing" and store the value of isPlaying() inside this variable. Learn more about isPlaying() - <a target="_blank" href=" https://p5js.org/reference/#/p5.SoundFile/isPlaying">isPlaying() on canvas</a></li>
+          <li>Print "Song is Playing" string along with the variable "playing" (as this variable will tell if song playing is true or false) on console<br>for eg - playing = variable_name.isPlaying(); (variable_name is the variable who is holding the audio file, in our code "music" variable is holding the audio file)</li>
+        </ol>
+      </li>
+      <li>Write the code in sketch.js</li>
+    </ul>
+    </p>
+    <button onclick="check()">Check if Music is Playing</button>
+  <button onclick="stop_music()">Stop Music</button>
+  <button onclick="play()">Play Music</button>
+    <script src="dj.js"></script>
+  </body>
+</html>
